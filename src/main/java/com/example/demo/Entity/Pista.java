@@ -20,7 +20,7 @@ public class Pista {
     @Column(nullable = false)
     private int columnas;
 
-    @Column(columnDefinition = "JSON", nullable = false)
+    @Column(columnDefinition = "TEXT", nullable = false)
     private String grid; // siempre String, guardamos JSON aquí
 
 
